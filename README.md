@@ -3,7 +3,7 @@ Pollnet contains some header only network libs for tcp, udp or ethernet data pro
 
 Another important feature of pollnet is that it supports low level apis for solarflare network adapters: Tcpdirect and Efvi, providing the same interface as its Socket counterparts, allowing the user to easily switch between Socket and Tcpdirect/Evfi implementations depending on whether or not solarflare NIC is being used.
 
-I optimized the pollnet, it is more reasonable in his structure, especially in the ev aspect, the speed will be even better.
+I optimized the pollnet, it is more reasonable in his structure, especially in the Efvi aspect, the speed will be even better.
 
 ## TCP
 TcpConnection, TcpClient and TcpServer classes are implemented in both Socket and Tcpdirect versions.
